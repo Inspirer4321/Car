@@ -1,0 +1,72 @@
+.avto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.left {
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.right {
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.middle {
+  width: 1px;
+  background-color: black;
+  height: 80%;
+  margin: 0 20px;
+}
+
+.button {
+  background-color: pink;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.featuresList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.placeholder {
+  color: gray;
+  margin-top: 5px;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.featureText {
+  margin-left: 5px;
+}
+
+.amount {
+  margin-top: 20px;
+}
+
+.totalAmount {
+  margin-top: 30px;
+}
